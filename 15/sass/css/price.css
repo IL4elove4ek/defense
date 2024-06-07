@@ -1,0 +1,34 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Raleway&family=Roboto:wght@300&display=swap");
+.price_lists {
+  width: 1920px;
+  background-color: #fff;
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 85px;
+}
+
+.photolineFr {
+  width: 500px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.mini {
+  width: 500px;
+  margin-top: 80px;
+}
+
+.pricetop {
+  width: 640px;
+  margin-top: 80px;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+.end {
+  margin-left: 180px;
+}
+
+.pricebottom {
+  margin-bottom: 80px;
+}/*# sourceMappingURL=price.css.map */

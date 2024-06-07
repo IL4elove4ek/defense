@@ -1,0 +1,73 @@
+@import '../base/vars.scss';
+%flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+@mixin text($color,$fz,$fw,$ff, $lh){
+    color: $color;
+    font-size: $fz;
+    font-weight: $fw;
+    font-family: $ff;
+    line-height: $lh;
+}
+.map {
+    width: 1920px;
+    background-image: url(/images/bg4.png);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+}
+.map h2{
+        width:300px;
+        @include text($main_color,36px ,700 ,$title_font,normal );
+        margin-left: 400px;
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+#map{
+    width:1000px;
+    margin-left:60px;
+    margin-bottom: 50px;
+}
+
+
+
+.scpart{
+   
+    .inp{
+    width:248px;
+    height:40px;
+    margin-bottom:4px ;
+    .space{
+        width:500px;
+       display: flex;
+    justify-content: space-between; 
+    }
+}
+    .trb{
+        width:500px;
+        height:360px;
+    }
+    .quest{
+    width: 505px;
+    margin-left: 200px;
+    display: flex;
+    flex-wrap: wrap;
+}
+button{
+    border: none;
+    width:500px;
+    height:40px;
+    margin-top: 10px;
+    background-color: $main_color;
+    
+}
+} 
+.scpart h2{
+        width:300px;
+        @include text($main_color,36px ,700 ,$title_font,normal );
+        margin-left: 280px;
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }

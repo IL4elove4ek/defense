@@ -1,0 +1,37 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Raleway&family=Roboto:wght@300&display=swap");
+footer {
+  background: #22B573;
+  width: 1920px;
+  height: 62px;
+  display: flex;
+  justify-content: space-around;
+}
+footer h3 {
+  color: #22B573;
+  font-size: 12px;
+  font-weight: 400;
+  font-family: "Playfair Display", serif;
+  line-height: normal;
+  padding-top: 15px;
+  letter-spacing: 1.44px;
+}
+footer .title {
+  width: 154px;
+  margin-left: 405px;
+  padding-top: 60px;
+}
+footer .social {
+  margin-top: 4px;
+}
+
+p {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 400;
+  font-family: "Playfair Display", serif;
+  line-height: normal;
+}
+
+.svg {
+  padding-top: 20px;
+}/*# sourceMappingURL=footer.css.map */

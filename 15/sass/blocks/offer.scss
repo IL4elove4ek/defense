@@ -1,0 +1,35 @@
+@import '../base/vars.scss';
+%flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+@mixin text($color,$fz,$fw,$ff, $lh){
+    color: $color;
+    font-size: $fz;
+    font-weight: $fw;
+    font-family: $ff;
+    line-height: $lh;
+}
+#offer{
+  margin-left: 510px;
+  margin-bottom: 80px;
+}
+#offer__title h2{
+  width: 292px;
+height: 36px;
+@include text($accent_color,36px ,700 ,$title_font ,normal );
+margin-bottom: 130px;
+text-align: center;
+margin-left: 300px;
+}
+
+
+.price_size{
+  width:900px;
+  transition: 0.5s;
+}
+.price_size:hover{
+  transform: scale(1.2);
+  box-shadow: 0 0 15px rgba(0,0,0,0.5);
+}

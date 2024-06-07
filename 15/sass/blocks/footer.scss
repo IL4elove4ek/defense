@@ -1,0 +1,42 @@
+@import '../base/vars.scss';
+%flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+@mixin text($color,$fz,$fw,$ff, $lh){
+    color: $color;
+    font-size: $fz;
+    font-weight: $fw;
+    font-family: $ff;
+    line-height: $lh;
+}
+footer{
+    background: #22B573;
+    width: 1920px;
+    height: 62px;
+display: flex;
+justify-content: space-around;
+h3{
+    @include text($accent_color,12px ,400 ,$title_font ,normal);
+    padding-top: 15px;
+letter-spacing: 1.44px;
+}
+.title{
+    width: 154px;
+    margin-left: 405px;
+    padding-top: 60px;
+
+}
+.social{
+    margin-top: 4px;
+}
+}
+
+p{
+    
+    @include text($main_color,18px ,400 ,$title_font ,normal);
+}
+.svg{
+    padding-top: 20px;
+}

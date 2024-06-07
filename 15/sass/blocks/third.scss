@@ -1,0 +1,54 @@
+@import '../base/vars.scss';
+%flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+@mixin text($color,$fz,$fw,$ff, $lh){
+    color: $color;
+    font-size: $fz;
+    font-weight: $fw;
+    font-family: $ff;
+    line-height: $lh;
+}
+
+
+.third{
+    position: relative;
+    bottom: 200px;
+    height: 1170px;
+    background-image: url(/images/third/bg3.png);
+  .one h2{
+    width: 272px;
+height: 36px;
+@include text($main_color,36px ,700 ,$title_font ,normal );
+padding-top:50px;
+padding-bottom: 30px;
+margin-left:450px;
+}
+.one{
+  width: 1920px;
+  margin-left: 380px;
+margin-top: 80px;
+}
+p{
+    width: 353px;
+height: 22px;
+@include text($main_color,24px ,400 ,$main_font,normal );
+margin-top: 198px;
+margin-left: 50px ;
+
+}
+.blocks{
+    display: grid;
+  grid-template-columns: repeat(3, 360px);
+  grid-template-rows: repeat(2, 360px);
+  gap: 50px;
+  margin-top: 80px;
+  }
+.size{
+    height:360px;
+    background: linear-gradient(180deg, rgba(34, 39, 44, 0) 0%, #242B33 100%)
+
+}
+}

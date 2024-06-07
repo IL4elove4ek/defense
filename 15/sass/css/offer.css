@@ -1,0 +1,28 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Raleway&family=Roboto:wght@300&display=swap");
+#offer {
+  margin-left: 510px;
+  margin-bottom: 80px;
+}
+
+#offer__title h2 {
+  width: 292px;
+  height: 36px;
+  color: #22B573;
+  font-size: 36px;
+  font-weight: 700;
+  font-family: "Playfair Display", serif;
+  line-height: normal;
+  margin-bottom: 130px;
+  text-align: center;
+  margin-left: 300px;
+}
+
+.price_size {
+  width: 900px;
+  transition: 0.5s;
+}
+
+.price_size:hover {
+  transform: scale(1.2);
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+}/*# sourceMappingURL=offer.css.map */

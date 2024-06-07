@@ -1,0 +1,155 @@
+@import '../base/vars.scss';
+%flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+@mixin text($color,$fz,$fw,$ff, $lh){
+    color: $color;
+    font-size: $fz;
+    font-weight: $fw;
+    font-family: $ff;
+    line-height: $lh;
+}
+
+header {
+  width: 1920px;
+  height: 1200px;
+  background-image:url(/images/header/aeon2.jpg);
+  .header__top {
+    width: 1110px;
+    margin: auto;
+    @extend %flex;
+    padding-top: 30px;
+    h3{
+        @include text($main_color,12px ,400 ,$title_font ,normal);
+    padding-top: 15px;
+letter-spacing: 1.44px;
+  }
+  .logo_new{
+    width:60px;
+    height:60px;
+  }
+  }
+  .nav__list {
+    width: 601px;
+    @extend %flex;
+    a {
+          @include text($main_color,18px ,600 ,$main_font ,normal );
+    letter-spacing: 0.7px;
+    transition: 0.5s;
+    }
+    a:hover{
+        color:$accent_color;
+
+    }
+  .theme{
+    width:20px;
+    height:20px;
+  }
+  }
+  .header__title{
+  h1{
+      width: 756px;
+      
+@include text($main_color,54px ,700 ,$main_font ,normal );
+text-align: center;
+margin-left: 682px;
+margin-top: 636px;
+}
+
+a{
+    
+    margin-left: 940px;
+position: relative;
+top: 100px;
+}
+  }
+  .header__footer{
+    .info{
+         position: relative;
+        top: 200px;
+        @include text($main_color,18px ,400 ,$main_font ,normal );
+text-align: center;
+    }
+    .info__map{
+        margin-left: 692px;
+       
+    }
+    .info__tel{
+        margin-left: 136px;
+       
+    }
+    .icon{
+    margin-right: 10px;
+    
+    }
+    img{
+        padding-top: 40px;
+    }
+  }
+  
+}
+
+.main{
+    width: 1920px;
+   height: 520px;
+   margin-top: 194px;
+    .main__cen{
+       width: 1100px;
+         display: flex;
+    justify-content: space-between;
+    margin: auto;
+    }
+
+    p{
+        @include text($main_color,20px ,300 ,$benefits_font,27px );
+text-align: center;
+line-height: 27px; 
+    }
+    .wrap{
+        width: 80px;
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .dop{
+        margin-left:55px;
+    }
+    .img1{
+width:85px;
+height:80px;
+
+    }
+    .pil{
+        margin-left:35px ;
+    }
+    .txt1{
+        width: 250px;
+color:$accent_color;
+margin-top: 53px;
+position: relative;
+right: 50px;
+    }
+    .txt2{
+        width: 250px;
+color:$accent_color;
+margin-top: 53px;
+position: relative;
+right: 25px;
+    }
+    .txt3{
+        width: 250px;
+color:$accent_color;
+margin-top: 53px;
+position: relative;
+right: 25px;
+    }
+    .txt4{
+        width: 250px;
+color:$accent_color;
+margin-top: 53px;
+position: relative;
+right: 20px;
+    }
+}

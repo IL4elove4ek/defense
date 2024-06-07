@@ -1,0 +1,17 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Raleway&family=Roboto:wght@300&display=swap");
+.video {
+  position: absolute;
+}
+.video .video__play {
+  width: 719px;
+  height: 650px;
+  margin-left: 595px;
+  margin-top: 180px;
+  background: linear-gradient(0deg, rgba(36, 43, 51, 0.8) 0%, rgba(36, 43, 51, 0.8) 100%), url(../../images/video/Rectangle\ 2.png), lightgray 50%/cover no-repeat, #626262;
+}
+.video .on {
+  width: 100px;
+  height: 100px;
+  margin-left: 309px;
+  margin-top: 275px;
+}/*# sourceMappingURL=video.css.map */

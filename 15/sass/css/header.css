@@ -1,0 +1,151 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Raleway&family=Roboto:wght@300&display=swap");
+header .nav__list, header .header__top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header {
+  width: 1920px;
+  height: 1200px;
+  background-image: url(/images/header/aeon2.jpg);
+}
+header .header__top {
+  width: 1110px;
+  margin: auto;
+  padding-top: 30px;
+}
+header .header__top h3 {
+  color: #fff;
+  font-size: 12px;
+  font-weight: 400;
+  font-family: "Playfair Display", serif;
+  line-height: normal;
+  padding-top: 15px;
+  letter-spacing: 1.44px;
+}
+header .header__top .logo_new {
+  width: 60px;
+  height: 60px;
+}
+header .nav__list {
+  width: 601px;
+}
+header .nav__list a {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 600;
+  font-family: "Raleway", sans-serif;
+  line-height: normal;
+  letter-spacing: 0.7px;
+  transition: 0.5s;
+}
+header .nav__list a:hover {
+  color: #22B573;
+}
+header .nav__list .theme {
+  width: 20px;
+  height: 20px;
+}
+header .header__title h1 {
+  width: 756px;
+  color: #fff;
+  font-size: 54px;
+  font-weight: 700;
+  font-family: "Raleway", sans-serif;
+  line-height: normal;
+  text-align: center;
+  margin-left: 682px;
+  margin-top: 636px;
+}
+header .header__title a {
+  margin-left: 940px;
+  position: relative;
+  top: 100px;
+}
+header .header__footer .info {
+  position: relative;
+  top: 200px;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 400;
+  font-family: "Raleway", sans-serif;
+  line-height: normal;
+  text-align: center;
+}
+header .header__footer .info__map {
+  margin-left: 692px;
+}
+header .header__footer .info__tel {
+  margin-left: 136px;
+}
+header .header__footer .icon {
+  margin-right: 10px;
+}
+header .header__footer img {
+  padding-top: 40px;
+}
+
+.main {
+  width: 1920px;
+  height: 520px;
+  margin-top: 194px;
+}
+.main .main__cen {
+  width: 1100px;
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+}
+.main p {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 300;
+  font-family: "Roboto", sans-serif;
+  line-height: 27px;
+  text-align: center;
+  line-height: 27px;
+}
+.main .wrap {
+  width: 80px;
+  display: flex;
+  flex-direction: column;
+}
+.main .dop {
+  margin-left: 55px;
+}
+.main .img1 {
+  width: 85px;
+  height: 80px;
+}
+.main .pil {
+  margin-left: 35px;
+}
+.main .txt1 {
+  width: 250px;
+  color: #22B573;
+  margin-top: 53px;
+  position: relative;
+  right: 50px;
+}
+.main .txt2 {
+  width: 250px;
+  color: #22B573;
+  margin-top: 53px;
+  position: relative;
+  right: 25px;
+}
+.main .txt3 {
+  width: 250px;
+  color: #22B573;
+  margin-top: 53px;
+  position: relative;
+  right: 25px;
+}
+.main .txt4 {
+  width: 250px;
+  color: #22B573;
+  margin-top: 53px;
+  position: relative;
+  right: 20px;
+}/*# sourceMappingURL=header.css.map */

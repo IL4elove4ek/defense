@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>О клинике</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+    <header>
+        <div class="header__top">
+            <a href="#">
+                <img class="logo_new" src="images/header/logo_new.svg" alt="Логотип">
+            </a>
+            <div class="header__nav">
+                <nav class="nav">
+                    <ul class="nav__list">
+                        <li><a href="index.html">Главная</a></li>
+                        <li><a href="about.html">О клинике</a></li>
+                        <li><a href="price.html">Прайс</a></li>
+                        <li><a href="contacts.html">Контакты</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+        <div class="header__title">
+            <h1 class="estetic">Клиника эстетической медицины</h1>
+        </div>
+        <div class="header__footer">
+            <a class="info info__map"><img class="icon" src="images/header/placeholder.svg" alt="Иконка адреса">Наб. реки Фонтанки 10-15</a>
+            <a class="info info__tel"><img class="icon" src="images/header/phone-call.svg" alt="Иконка телефона">8 (812) 123-45-67</a>
+        </div>
+    </header>
+
+    <section class="about">
+        <img src="./images/about/clinic.jpg" alt="Фото клиники">
+        <div class="about__text">
+            <h2>О нашей клинике</h2>
+            <p>Наша клиника оснащена всем необходимым для создания и поддержания вашей красоты и молодости. В нашем арсенале есть опытные специалисты с огромным стажем до 15-20 лет. У нас в клинике вы можете проходить курсы капельниц, чтобы восполнить недостаток витаминов, что положительно сказывается на вашем повседневном ментальном и физическом состоянии. Также у нас есть курс лазерной эпиляции, что поможет избавиться от нежелательных волос на определенных зонах вашего тела. Для некоторых процедур нам нужно будет знать, есть ли у вас аллергия на те или иные препараты, поэтому мы можем предложить вам сдать анализы у нас. Мы сотрудничаем с КДЛ Олимп, и вы можете передать свои анализы через нас без очереди, сэкономив время и силы. Мы всегда рады вашему визиту и отзывам.</p>
+        </div>
+    </section>
+
+    <section class="chief-doctor">
+        <img src="./images/about/doctor.jpg" alt="Главный врач">
+        <div class="chief-doctor__text">
+            <h2>Главный врач</h2>
+            <p>Доктор Амансугурова Гульмира Вахитовна - высококвалифицированный специалист с многолетним опытом работы в области эстетической медицины. Гульмира Амансугурова постоянно совершенствует свои знания и навыки, участвуя в международных конференциях и семинарах.
+                На данный момент Гульмира проходит обучение в антивозрастной медицине и имеет хорошие успехи в данном напрвлении . Гульмира за всю свою карьеру облетела множество стран изучая и впитывая новую информацию в области медицины и косметологии .
+            </p>
+        </div>
+    </section>
+
+    <section class="license">
+        <img src="./images/about/license.jpg" alt="Лицензия">
+        <div class="license__text">
+            <h2>Лицензии и Сертификаты</h2>
+            <p>Вот одно из многих докозательств того что наш глав. врач Амансугурова Гульмира Вахитовна имеет лицензию по медицинской деятельности на государственном уровне.</p>
+        </div>
+    </section>
+
+    <section class="appointment">
+        <h2>Запись на прием</h2>
+        <button id="appointmentBtn">Записаться</button>
+    </section>
+
+    <div id="appointmentModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <form>
+                <label for="name">Имя:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="phone">Телефон:</label>
+                <input type="tel" id="phone" name="phone" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Сообщение:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+                <input type="submit" value="Записаться">
+            </form>
+        </div>
+    </div>
+
+    <footer>
+        <p>iliasamansugur@gmail.com</p>
+        <p>• Клиника эстетической медицины</p>
+        <p>• Косметология</p>
+        <p>• Капельницы</p>
+        <div class="social">
+            <a href="https://www.instagram.com/aeon_clinic?igsh=cWcxOHUzNmVzb2Yw"><img src="./images/icons8-instagram-50 (1).png" alt="Instagram"></a>
+            <a href="https://wa.me/77028194636"><img src="./images/icons8-whatsapp-50 (1).png" alt="WhatsApp"></a>
+        </div>
+    </footer>
+
+    <script>
+        var modal = document.getElementById("appointmentModal");
+        var btn = document.getElementById("appointmentBtn");
+        var span = document.getElementsByClassName("close")[0];
+
+        btn.onclick = function () {
+            modal.style.display = "block";
+        }
+
+        span.onclick = function () {
+            modal.style.display = "none";
+        }
+
+        window.onclick = function (event) {
+            if (event.target == modal) {
+                modal.style.display = "none";
+            }
+        }
+    </script>
+</body>
+
+</html>

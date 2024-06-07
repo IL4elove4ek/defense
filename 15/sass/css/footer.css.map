@@ -1,0 +1,1 @@
+{"version":3,"sourceRoot":"","sources":["../base/vars.scss","../blocks/footer.scss"],"names":[],"mappings":"AAAQ;ACaR;EACI;EACA;EACA;EACJ;EACA;;AACA;EAZI,ODNU;ECOV,WAY4B;EAX5B,aAWkC;EAVlC,aDDQ;ECER,aASoD;EACpD;EACJ;;AAEA;EACI;EACA;EACA;;AAGJ;EACI;;;AAIJ;EA5BI,ODLS;ECMT,WA6B0B;EA5B1B,aA4BgC;EA3BhC,aDDQ;ECER,aA0BkD;;;AAEtD;EACI","file":"footer.css"}
